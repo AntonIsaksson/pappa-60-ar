@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+
+/*----------------------------------------General CSS---*/
+body {
+    text-align: center;
+    /*font-family: Papyrus, fantasy;*/
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 0;
+    background: url('../img/halloween-2837936.png') no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+.bg-container {
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #387750 74%);
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.bg-container-2 {
+    background-color: #d4cc63;
+    background-image: linear-gradient(315deg, #ccd463 0%, #aabb4c 74%);
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.bg-container-3 {
+    background-color: #d4cc63;
+    background-image: linear-gradient(315deg, #ccd463 0%, #aabb4c 74%);
+    min-height: 30vh;
+    width: 100vw;
+}
+
+.bg-container-4 {
+    background-color: #d4637b;
+    background-image: linear-gradient(315deg, #d46363 0%, #773f38 74%);
+    min-height: 30vh;
+    width: 100vw;
+}
+
+#main-heading {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    color: whitesmoke;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+.para {
+    font-size: 1.7rem;
+}
+
+.first-image {
+    height: 28rem;
+    max-width: 60vw;
+    background: url(https://www.banfflakelouise.com/sites/default/files/styles/l_1600_12x6/public/hiking_sentinel_pass_jake_dyson_2_horizontal.jpg?itok=jsU6BajR) center;
+    background-size: cover;
+    box-shadow:
+    0 2.8px 2.2px rgba(151, 134, 34, 0.11),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.sub-heading {
+    color: whitesmoke;
+    font-size: 3rem;
+    padding: 4rem 0 2rem;
+}
+
+.sub-heading-2 {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.sub-heading-modal {
+    color: whitesmoke;
+    font-size: 6rem;
+    padding: 4rem 0 2rem;
+}
+
+.f-image {
+    height: 35rem;
+    max-width: 70vw;
+    background: url(https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/89864574_224647282022509_1900933081892651008_n.jpg?_nc_cat=106&_nc_sid=b96e70&_nc_oc=AQkr52VSEwXYh8qTe70oz8xM4v0qOyyHO1RmDAM-BESyoj4NKgDUF-O9EJ2i-7wLxfQ&_nc_ht=scontent.fbkk14-1.fna&_nc_tp=7&oh=e5fc6a71ec32131a9a005d2ae2dd3323&oe=5EA56401) center;
+    background-size: cover;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+
+
+.card>img {
+    max-height: 23rem;
+}
+
+.card {
+    margin-bottom: 3rem;
+}
+.card-text {
+    font-family: 'EB Garamond', serif;
+  display: block;
+  font-style:normal;
+  font-weight: 700;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+#timer, #time {
+    color: rgb(241, 240, 236);
+    font-size: 10rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#countdown-modal {
+    background-color: #d4637b;
+    background-image: linear-gradient(315deg, #d46363 0%, #773f38 74%);
+    opacity: 95%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
+}
+
+#celebration-modal {
+    background:url(https://i.gifer.com/QBkT.gif) center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
+    
+}
+
+.modal-content {
+    margin-top: 5rem;
+    text-align: center;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.modal-title, .modal-body>p, .modal-footer>button {
+    text-align: center;
+
+}
+
+.modal-img {
+    height: 8rem;
+}
+
+
+.rooms-card .carousel-item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 23rem;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.carousel-indicators li {
+    border-radius: 33%;
+    height: 4px;
+    width: 30px;
+    background-color: rgb(214, 205, 177);
+    margin: 0 1rem 0;
+    cursor: pointer;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 150%;
+}
+.carousel-control-prev i,
+.carousel-control-next i  {
+    color: rgba(219, 206, 174, 1);
+}
+
+.carousel-control-prev i:hover,
+.carousel-control-next i:hover {
+    color: #f9f9fa;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
